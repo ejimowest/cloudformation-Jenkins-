@@ -1,0 +1,17 @@
+{
+        "Resources": {
+            "S3Bucket": {
+                "Type": "AWS::S3::Bucket",
+                "Properties": {
+                    "BucketName": "cfbucket"
+                }
+            }
+        },
+        "Outputs": {
+            "BucketName": {
+                "Value": {
+                    "Ref": "S3Bucket"
+                }
+            }
+        }
+    }
