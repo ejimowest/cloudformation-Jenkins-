@@ -3,7 +3,7 @@
             "S3Bucket": {
                 "Type": "AWS::S3::Bucket",
                 "Properties": {
-                    "BucketName": "cfbucket"
+                    "BucketName": "cf1bucket"
                 }
             }
         },
