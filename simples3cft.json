@@ -5,13 +5,13 @@
             "Type": "AWS::S3::Bucket",
             "Properties": {
                 "AccessControl": "PublicRead",
-                "BucketName": "cfbucket",
+                "BucketName": "cf1bucket",
                 "WebsiteConfiguration": {
                     "IndexDocument": "index.html",
                     "ErrorDocument": "error.html"
                 }
             },
-            "DeletionPolicy": "Retain"
+            "DeletionPolicy": "Yes"
         },
         "BucketPolicy": {
             "Type": "AWS::S3::BucketPolicy",
