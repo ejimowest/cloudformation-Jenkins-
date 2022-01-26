@@ -5,7 +5,7 @@
             "Type": "AWS::S3::Bucket",
             "Properties": {
                 "AccessControl": "PublicRead",
-                "BucketName": "cf1bucket",
+                "BucketName": "cf2bucket",
                 "WebsiteConfiguration": {
                     "IndexDocument": "index.html",
                     "ErrorDocument": "error.html"
