@@ -5,7 +5,7 @@
             "Type": "AWS::S3::Bucket",
             "Properties": {
                 "AccessControl": "PublicRead",
-                "BucketName": "cfjenkinsbucket",
+                "BucketName": "cf1jenkinsbucket",
                 "WebsiteConfiguration": {
                     "IndexDocument": "index.html",
                     "ErrorDocument": "error.html"
